@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div>
+      <nav class="flex justify-around items-center py-4">
+        <form class="flex border-2 border-indigo-600 w-5/12 rounded">
+          <input
+            name="keyword"
+            class="flex-1 px-4 rounded"
+            placeholder="Search this site"
+          />
+          <select class="py-2 px-4 border-1 border-indigo-600">
+            <option>All Categories</option>
+            <option value="mens">Men's</option>
+            <option value="womens">Women's</option>
+            <option value="electronics">Electronics</option>
+          </select>
+          <button class="bg-indigo-600 py-2 px-4 text-white">
+            <i class="ri-search-2-line"></i>
+          </button>
+        </form>
+        <div class="flex gap-4">
+          <button class="text-lg">
+            <i class="ri-user-line"></i>
+            Account
+          </button>
+          <button class="text-lg">
+            <i class="ri-heart-line"></i>
+            Wishlist
+          </button>
+          <button class="text-lg">
+            <i class="ri-shopping-cart-line"></i>
+            Cart
+          </button>
+        </div>
+      </nav>
+
+      <nav class="flex justify-around items-center py-4">
+        <button class="border text-xl w-12 h-12">
+          <i class="ri-menu-2-line"></i>
+        </button>
+        <ul class="flex gap-12">
+          <li>
+            <a href="" class="text-md font-semibold"> Home</a>
+          </li>
+          <li>
+            <a href="" class="text-md font-semibold"> Category</a>
+          </li>
+          <li>
+            <a href="" class="text-md font-semibold"> Products</a>
+          </li>
+          <li>
+            <a href="" class="text-md font-semibold"> Blog</a>
+          </li>
+          <li>
+            <a href="" class="text-md font-semibold"> Contact</a>
+          </li>
+        </ul>
+        <select class="border py-2 px-16">
+          <option>Chicago</option>
+          <option>America</option>
+          <option>Nepal</option>
+          <option>India</option>
+        </select>
+      </nav>
+
+      <section class="py-32">
+        <div class="carousel px-8">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide bg-[#f3f3f3] rounded-lg justify-around"
+                style="background-color: #f3f3f3; display: flex"
+              >
+                <div class="pl-24 space-y-5">
+                  <h4 class="font-bold text-xl">
+                    <span class="text-indigo-600">100%</span> Cotton Fabric
+                  </h4>
+                  <h1 class="font-bold text-6xl">Explore jeans summer sale</h1>
+                  <p class="text-slate-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Error, est quam ?
+                  </p>
+                  <button
+                    class="bg-indigo-600 px-4 py-2 text-white rounded font-semibold"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+                <img src="img/1.jpg" alt="1" class="" />
+              </div>
+              <div
+                class="swiper-slide bg-[#f3f3f3] rounded-lg justify-around"
+                style="background-color: #f3f3f3; display: flex"
+              >
+                <div class="pl-24 space-y-5">
+                  <h4 class="font-bold text-xl">
+                    <span class="text-indigo-600">100%</span> Cotton Fabric
+                  </h4>
+                  <h1 class="font-bold text-6xl">Explore jeans summer sale</h1>
+                  <p class="text-slate-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Error, est quam ?
+                  </p>
+                  <button
+                    class="bg-indigo-600 px-4 py-2 text-white rounded font-semibold"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+                <img src="img/2.jpg" alt="1" class="" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <footer
+        class="py-16  px-20"
+        style="background-color: #f3f3f3"
+      >
+        <div class="flex gap-16">
+          <div class="space-y-5" style="width: 350px;">
+            <img src="img/" />
+            <p class="text-zinc-600">
+              Carrot is the biggest market of grocery products. Get your daily
+              needs from our store.
+            </p>
+            <div class="flex gap-2 text-gray-500">
+              <i class="ri-map-pin-line"></i>
+              <address>
+                51 Green St.Huntington ohaio beach ontario, NY 11746 KY 4783, USA.
+              </address>
+            </div>
+            <div class="flex gap-2 text-gray-500">
+              <i class="ri-mail-send-line"></i>
+              <p>example@email.com</p>
+            </div>
+            <div class="flex gap-2 text-gray-500">
+              <i class="ri-phone-line"></i>
+              <p>+91 123 4567890</p>
+            </div>
+          </div>
+  
+          <div class="flex-1">
+            <h4 class="font-semibold text-2xl">Company</h4>
+            <ul class="space-y-3 mt-4">
+              <li>
+                <a href="#" class="text-gray-500">About US</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-500">Delivery Information</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-500">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-500">contact Us</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-500">Support Center</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="flex-1">
+            <h4 class="font-semibold text-2xl">Category</h4>
+            <ul class="space-y-3 mt-4">
+              <li>
+                <a href="#" class="text-gray-500">Fashion & Clothes</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-500">Dairy & Bakery</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-500">Fruits & Vegetable</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-500">Snack & Spice</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-500">Juice & Drinks</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-500">Fast Food</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="space-y-4">
+            <h4 class="font-semibold text-2xl">Newsletter</h4>
+            <div class="">
+              <p class="text-gray-500 mb-1">Subscribe to get in touch.</p>
+              <form autocomplete="off" class="relative w-full">
+                <input
+                  name="email"
+                  type="email"
+                  required
+                  class="border w-full py-3 rounded"
+                  placeholder="Email"
+                />
+                <button class="absolute top-0 right-2 p-2.5" type="submit">
+                  <i class="ri-send-plane-fill"></i>
+                </button>
+              </form>
+              <div class="flex gap-2 items-center mt-4">
+                <a class="border bg-white block px-2.5 py-1.5 rounded"><i class="ri-facebook-line"></i></a>
+                <a class="border bg-white block px-2.5 py-1.5 rounded"><i class="ri-twitter-x-line"></i></i></a>
+                <a class="border bg-white block px-2.5 py-1.5 rounded"><i class="ri-dribbble-line"></i></a>
+                <a class="border bg-white block px-2.5 py-1.5 rounded"><i class="ri-instagram-line"></i></a>
+              </div>
+              <div class="flex gap-4 mt-4">
+                <a href="#">
+                  <img src="img/android.png" class="rounded-md" width="150"/>
+                </a>
+                <a href="#">
+                  <img src="img/apple.png" class="rounded-md" width="150"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-8 mb-3" />
+
+        <div class="flex items-center justify-between">
+          <p>© 2024 Carrot, All rights reserved.</p>
+          <div >
+            <img src="img/payment.png"/>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
